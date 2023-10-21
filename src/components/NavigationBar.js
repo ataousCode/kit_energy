@@ -41,13 +41,6 @@ function NavigationBar(){
 
   </ul>
   </nav>
-    <h2 
-    style={{fontSize: '2rem', textAlign: 'left', marginBottom:'2rem'}} 
-    >WHO ARE WE?</h2>
-    <div>
-        <img src="https://images.unsplash.com/photo-1624397640148-949b1732bb0a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wyMDg4MDd8MHwxfHNlYXJjaHwxfHxTb2xhciUyMHBhbmVsc3xlbnwwfHx8fDE2OTc1MjMzNzB8MA&ixlib=rb-4.0.3&q=80&w=1080"
-        class='d-block mx-auto' />
-    </div>
     </>
 )
 }

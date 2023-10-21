@@ -1,6 +1,6 @@
 import { Container, Row, Col } from 'react-bootstrap';
-
-
+import React from 'react';
+import ScrollBar from './ScrollBar';
 
 
 const Footer = () => {
@@ -49,13 +49,12 @@ const Footer = () => {
               </p>
             </Col>
             <Col>
-              <p className="text-center m-3">
-                &copy; {new Date().getFullYear()} Ô DEVELOPMENT
+              <p className="justify-content-end m-2">
+              <ScrollBar />
               </p>
             </Col>
+          
           </Row>
-
-      
         </Container>
       </footer>
     );

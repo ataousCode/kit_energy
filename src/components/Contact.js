@@ -1,9 +1,10 @@
-
+import React from "react"
+import Footer from "./Footer"
 
 const ContactForm = () =>{
 
   return (
-    <div class="container mt-3">
+    <div class="container-fluid mt-3">
   <h2>Contact Us</h2>
   <form action="">
   <div class="mb-3 mt-3">
@@ -27,6 +28,8 @@ const ContactForm = () =>{
     </div>
     <button type="submit" className="btn btn-outline-warning">Submit</button>
   </form>
+  <Footer />
+
 </div>
 
   )
