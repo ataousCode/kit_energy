@@ -1,7 +1,5 @@
 pipeline {
-
     agent none
-
     stages {
         stage ('Run the app in docker') {
             agent {
@@ -9,7 +7,7 @@ pipeline {
             }
 
             steps {
-                sh 'docker ps'
+                sh 'echo Welcome, all is good'
             }
         }
     }
