@@ -30,7 +30,9 @@ const Footer = () => {
             <Col md={3}>
               <h5>SOLAR KIT</h5>
               <p>
-                <img src='logo.png' className='img-fluid'/>
+                <img 
+                src='http://kit-energy.com/wp-content/uploads/2018/04/KIT3-300x250.jpg' 
+                className='img-fluid'/>
               </p>
             </Col>
             <Col md={3}>

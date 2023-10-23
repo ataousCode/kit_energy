@@ -1,9 +1,9 @@
 import './App.css';
-import Footer from './components/Footer';
 import NavigationBar from './components/NavigationBar';
 import ContactForm from './components/Contact';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Home from './components/pages/Home';
+import Climatization from './components/pages/Climatization';
 
 function App() {
   return (
@@ -14,6 +14,7 @@ function App() {
       <Routes>
        <Route index element={<Home />}/>
        <Route path='/contact' element={<ContactForm />}/>
+       <Route path='/climatization' element={<Climatization />}/>
       </Routes>
     </BrowserRouter>
     </div>

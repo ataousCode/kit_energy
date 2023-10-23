@@ -5,22 +5,21 @@ function NavigationBar(){
 
     return(
         <>
-        
         <nav className="p-2 m-3 text-dark">
             <div class="container-fluid">
                 <strong>
-                <a class="navbar-brand" href="#">KIT SARL</a>
+                <a class="navbar-brand" href="/">KIT SARL</a>
                 </strong>
             </div>
         <ul class="nav text-light justify-content-end">
     <li class="nav-item">
-      <p><a style={{color: 'black'}} class="nav-link" href="#">WELCOME</a></p>
+      <p><a style={{color: 'black'}} class="nav-link" href="/">WELCOME</a></p>
     </li>
     <li class="nav-item">
     <p><a style={{color: 'black'}} class="nav-link" href="#">WHO ARE WE?</a></p>
     </li>
     <li class="nav-item">
-    <p><a style={{color: 'black'}}  class="nav-link" href="#">AIR CONDITIONER</a></p>
+    <p><a style={{color: 'black'}}  class="nav-link" href="/climatization">AIR CONDITIONER</a></p>
     </li>
 
     <li class="nav-item dropdown">
