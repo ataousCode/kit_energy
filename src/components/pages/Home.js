@@ -167,16 +167,19 @@ const Home = () => {
          <Col md={6}>
             {/* Progress bars for services, competences, and results */}
             <br />  <br /> <br />  <br /> <br /> <br /> <br />
+            <small>Services</small>
             <div className="progress">
               <div className="progress-bar" style={{ width: `${progress.services}%` }}>
                 {progress.services}%
               </div>
             </div> <br />
+            <small>SKILLS</small>
             <div className="progress">
               <div className="progress-bar" style={{ width: `${progress.competences}%` }}>
                 {progress.competences}%
               </div>
             </div> <br />
+            <small>Results</small>
             <div className="progress">
               <div className="progress-bar" style={{ width: `${progress.results}%` }}>
                 {progress.results}%
@@ -185,7 +188,9 @@ const Home = () => {
           </Col>
           <Col>
           <div><br /><br />
-          <button className="btn btn-outline-secondary  divider-button float-left">
+          <button 
+          className="btn btn-outline-secondary  divider-button float-left"
+          style={{marginBottom: '20px'}}>
             Read More
         </button>
         </div>
